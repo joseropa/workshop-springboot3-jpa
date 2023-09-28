@@ -13,7 +13,7 @@ import com.educandoweb.course.repositories.UserRepository;
 @Configuration
 @Profile("test")
 public class TestConfig implements CommandLineRunner {
-
+	 
 	@Autowired
 	private UserRepository userRepository;
 
